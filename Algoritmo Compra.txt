@@ -1,0 +1,17 @@
+Algoritmo Ejercicio1
+	Definir Compras Como Entero
+	Escribir "Bienvenido, cuánto es lo que se desea cobrar"
+	Escribir '(1) pago < 500'
+	Escribir '(2) pago > 500 & <= 1000'
+	Escribir '(3) pago > 1000 & <= 7000'
+	Escribir '(4) pago >7000 & <= 15000'
+	Escribir '(5) pago > 15000'
+	Leer Compras
+	Segun Compras Hacer
+		1: Escribir "No se ha aplicado nigun descuento"
+		2: Escribir "Se le ha aplicado el 5%"
+		3: Escribir "Se le ha aplicado un 11%"
+		4: Escribir "Se le ha aplicado un 18%"
+		5: Escribir "Se le ha aplicado un 25%"
+	FinSegun
+FinAlgoritmo
